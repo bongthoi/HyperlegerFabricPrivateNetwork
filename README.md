@@ -8,9 +8,9 @@
 
 
 ## Setup Private Networks
-`$ curl -O https://github.com/bongthoi/HyperlegerFabricPrivateNetwork/blob/master/setup_Ubuntu_Part_1.sh`
-`$ chmod u+x setup_Ubuntu_Part_1.sh`
-`$ bash setup_Ubuntu_Part_1.sh`
+$ curl -O https://github.com/bongthoi/HyperlegerFabricPrivateNetwork/blob/master/setup_Ubuntu_Part_1.sh
+$ chmod u+x setup_Ubuntu_Part_1.sh
+$ bash setup_Ubuntu_Part_1.sh
 
 $ curl -O https://github.com/bongthoi/HyperlegerFabricPrivateNetwork/blob/master/setup_Ubuntu_Part_2.sh
 $ chmod u+x setup_Ubuntu_Part_2.sh
