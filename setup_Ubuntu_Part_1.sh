@@ -126,15 +126,15 @@ function nodeV8Install()
 	[ -s "${NVM_DIR}/bash_completion" ] && . "${NVM_DIR}/bash_completion"
 
 	showStep "Installing nodeJS"
-	nvm install --lts
+	nvm install 8.11.2
 
 	showStep "Configure nvm to use version 8"
-	nvm use --lts
-	nvm alias default 'lts/*'
+	nvm use 8
+	nvm alias default 8.11.2
 
 	# Install the latest version of npm
 	showStep "Installing npm"
-	npm install npm@latest -g
+	npm install npm@6.1.0 -g
 
 }
 # check to see if git is installed. install it if it's not already there. 
